@@ -22,7 +22,6 @@ public class MainController {
         persons.add(new Person("Steve", "Jobs"));
     }
 
-    // Injectez (inject) de l'application.properties.
     @Value("${welcome.message}")
     private String message;
 
